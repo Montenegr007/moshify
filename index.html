@@ -15,77 +15,53 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <section class="block block--dark block--skewed-right block-showcase">
+    <section class="block">
       <header class="block__header">
-        <h2 class="block__heading">User-friendly Control Panel</h2>
-        <div class="container grid grid--1x2">
-          <picture class="block-showcase__image">
-            <source
-              type="image/webp"
-              srcset="images/ipad@1x.webp 1x, images/ipad@2x.webp 2x"
-            />
-            <source
-              type="image/png"
-              srcset="images/ipad@1x.png 1x, images/ipad@2x.png 2x"
-            />
-            <img src="images/ipad@1x.png" alt="" />
-          </picture>
-          <ul class="list">
-            <li>
-              <div class="media">
-                <div class="media__image">
-                  <svg class="icon icon--primary">
-                    <use xlink:href="images/sprite.svg#wordpress"></use>
-                  </svg>
-                </div>
-                <div class="media__body">
-                  <h3 class="media__title">Easy Starts & Manage Updates</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Porro, amet. Eius fugiat voluptatibus sequi, illo
-                    reprehenderit molestias exercitationem quidem minima!
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="media">
-                <div class="media__image">
-                  <svg class="icon icon--primary">
-                    <use xlink:href="images/sprite.svg#wordpress"></use>
-                  </svg>
-                </div>
-                <div class="media__body">
-                  <h3 class="media__title">Easy Starts & Manage Updates</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Porro, amet. Eius fugiat voluptatibus sequi, illo
-                    reprehenderit molestias exercitationem quidem minima!
-                  </p>
-                </div>
-              </div>
-            </li>
-            <li>
-              <div class="media">
-                <div class="media__image">
-                  <svg class="icon icon--primary">
-                    <use xlink:href="images/sprite.svg#wordpress"></use>
-                  </svg>
-                </div>
-                <div class="media__body">
-                  <h3 class="media__title">Easy Starts & Manage Updates</h3>
-                  <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Porro, amet. Eius fugiat voluptatibus sequi, illo
-                    reprehenderit molestias exercitationem quidem minima!
-                  </p>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
+        <h2>What our Customers are Saying</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Reprehenderit, quod!
+        </p>
       </header>
+      <div class="container">
+        <div class="card testimonial">
+          <div class="grid grid--1x2">
+            <div class="testimonial__image">
+              <img
+                src="images/testimonial.jpg"
+                alt="A happy smiling customer"
+              />
+              <span class="icon-container icon-container--accent">
+                <svg class="icon icon--white icon--small">
+                  <use xlink:href="images/sprite.svg#quotes"></use>
+                </svg>
+              </span>
+            </div>
+            <blockquote class="quote">
+              <p class="quote__text">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt
+                fugit fugiat corrupti blanditiis quis corporis deserunt odio qui
+                eaque porro!
+              </p>
+              <footer>
+                <div class="media">
+                  <div class="media__image">
+                    <svg class="icon icon--primary quote__line">
+                      <use xlink:href="images/sprite.svg#line"></use>
+                    </svg>
+                  </div>
+                  <div class="media__body">
+                    <h3 class="media__title quote__author">John Smith</h3>
+                    <p class="quote__organization">ABC Company</p>
+                  </div>
+                </div>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
     </section>
+
     <script src="js/main.js"></script>
   </body>
 </html>
